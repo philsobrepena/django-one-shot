@@ -9,6 +9,7 @@ class TodoListAdmin(admin.ModelAdmin):
     list_display = (
         "name",
         "created_on",
+        "id",
     )
 
 
